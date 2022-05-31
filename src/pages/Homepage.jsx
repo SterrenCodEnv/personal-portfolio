@@ -42,7 +42,7 @@ function Homepage() {
 
       <Element name="section-experiences">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Experience" />
+          <SectionHeading title="Courses" />
           <Experiences />
         </section>
       </Element>

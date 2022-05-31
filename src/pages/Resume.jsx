@@ -1,7 +1,7 @@
-import React, {useEffect} from "react";
-import Layout2 from "../components/Layout/Layout2";
-import SectionHeading from "../components/Items/SectionHeading";
-import Experiences from "../components/Sections/Experiences";
+import React, { useEffect } from 'react';
+import Layout2 from '../components/Layout/Layout2';
+import SectionHeading from '../components/Items/SectionHeading';
+import Experiences from '../components/Sections/Experiences';
 
 function Resume() {
   useEffect(() => {
@@ -10,7 +10,7 @@ function Resume() {
   return (
     <Layout2>
       <section className="shadow-blue white-bg padding mt-0">
-        <SectionHeading title="Experience" />
+        <SectionHeading title="Courses" />
         <Experiences />
       </section>
     </Layout2>
