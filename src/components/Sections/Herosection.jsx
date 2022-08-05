@@ -28,10 +28,18 @@ function Herosection() {
 
         <a
           target={'_blank'}
-          href={'media/CV-SterrenJuanIgnacio.pdf'}
+          href={'media/CV-SterrenJuanIgnacio[EN].pdf'}
           className="btn btn-default btn-lg mr-3"
         >
-          <i className="fa-solid fa-cloud-arrow-down"></i>Download CV
+          <i className="fa-solid fa-cloud-arrow-down"></i>English CV
+        </a>
+
+        <a
+          target={'_blank'}
+          href={'media/CV-SterrenJuanIgnacio[SP].pdf'}
+          className="btn btn-default btn-lg mr-3"
+        >
+          <i className="fa-solid fa-cloud-arrow-down"></i>CV Español
         </a>
 
         <div

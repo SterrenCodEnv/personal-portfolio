@@ -2,7 +2,8 @@ import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 
 const aboutData = {
-  cvpath: 'media/CV-SterrenJuanIgnacio.pdf',
+  cvenpath: 'media/CV-SterrenJuanIgnacio[EN].pdf',
+  cvsppath: 'media/CV-SterrenJuanIgnacio[SP].pdf',
   image: 'images/logo.png',
   name: 'Juan Sterren',
   location: 'San Guillermo (Sta Fe, AR)',
@@ -38,11 +39,20 @@ function About() {
         </div>
         <a
           target={'_blank'}
-          href={aboutData.cvpath}
+          href={aboutData.cvenpath}
           className="btn btn-default mr-3"
         >
-          <i className="fa-solid fa-cloud-arrow-down"></i>Download CV
+          <i className="fa-solid fa-cloud-arrow-down"></i>English CV
         </a>
+
+        <a
+          target={'_blank'}
+          href={aboutData.cvsppath}
+          className="btn btn-default mr-3"
+        >
+          <i className="fa-solid fa-cloud-arrow-down"></i>CV Español
+        </a>
+
         <ScrollLink
           activeClass="active"
           to="section-contact"
