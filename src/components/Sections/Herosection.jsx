@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 const herosectionData = {
   name: 'Juan Sterren',
   aboutMe:
-    'Hello! I am FullStack Developer, I have knowledge in Js / Ts and derived frameworks such as NestJs, Express, Angular, Flutter (Dart) and I am currently interested in learning React and React Native. I can help you with something? Get in touch with me.',
+    'Hello! I am a FullStack Developer and an advanced student of a Higher Technician in Software Development, in 2016 I started developing my first projects as a frontend developer in a dependency relationship, from 2017 to 2021 my main work activities did not include software development, even so, during those years I took several courses, developed websites for private clients and developed a comprehensive claims system for municipalities and communes using technologies such as Symfony (PHP), Angular 7 (Typescript) and MySQL. I can help you with something? Get in touch with me.',
 };
 
 function Herosection() {
@@ -33,6 +33,11 @@ function Herosection() {
         >
           <i className="fa-solid fa-cloud-arrow-down"></i>English CV
         </a>
+
+        <div
+          className="spacer d-md-none d-lg-none d-sm-none"
+          data-height="10"
+        ></div>
 
         <a
           target={'_blank'}

@@ -10,7 +10,7 @@ const aboutData = {
   birthday: '23 July, 1991',
   email: 'sterrenjuanignacio@gmail.com',
   aboutMe:
-    'Hello! I am a FullStack Developer, I have knowledge in Js/Ts and derivative frameworks such as NestJs, Express, Angular, Flutter (Dart) and I am currently taking my first steps with React and React Native. I can help you with something? Get in touch with me.',
+    'Hello! I am a FullStack Developer and an advanced student of a Higher Technician in Software Development, in 2016 I started developing my first projects as a frontend developer in a dependency relationship, from 2017 to 2021 my main work activities did not include software development, even so, during those years I took several courses, developed websites for private clients and developed a comprehensive claims system for municipalities and communes using technologies such as Symfony (PHP), Angular 7 (Typescript) and MySQL.',
 };
 
 function About() {
@@ -44,6 +44,10 @@ function About() {
         >
           <i className="fa-solid fa-cloud-arrow-down"></i>English CV
         </a>
+        <div
+          className="spacer d-md-none d-lg-none d-sm-none"
+          data-height="10"
+        ></div>
 
         <a
           target={'_blank'}
@@ -53,6 +57,11 @@ function About() {
           <i className="fa-solid fa-cloud-arrow-down"></i>CV Español
         </a>
 
+        <div
+          className="spacer d-md-none d-lg-none d-sm-none"
+          data-height="10"
+        ></div>
+
         <ScrollLink
           activeClass="active"
           to="section-contact"
@@ -60,7 +69,7 @@ function About() {
           smooth={true}
           duration={500}
           offset={50}
-          className="btn btn-alt mt-2 mt-md-0 mt-xs-2"
+          className="btn btn-alt mt-md-0"
         >
           <i className="fa-solid fa-paper-plane"></i>Contact me
         </ScrollLink>
