@@ -13,6 +13,11 @@ const clientsData = [
     image: 'images/clients/2.png',
     url: 'https://grupoprominente.com/',
   },
+  {
+    id: 3,
+    image: 'images/clients/3.png',
+    url: 'https://janis.im/',
+  },
 ];
 
 function Clients() {

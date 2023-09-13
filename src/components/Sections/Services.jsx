@@ -3,6 +3,12 @@ import Service from '../Items/Service';
 
 const servicesData = [
   {
+    id: 1,
+    name: 'Programming Languages',
+    content: `Languages I've used include C++, C#, Python, Java, PHP, HTML, CSS, JavaScript, TypeScript, Dart, SQL and others.`,
+    icon: 'fa-brands fa-dev',
+  },
+  {
     id: 2,
     name: 'JavaScript & TypeScript',
     content:
@@ -16,50 +22,45 @@ const servicesData = [
     icon: 'fa-brands fa-node-js',
   },
   {
-    id: 1,
-    name: 'React & Native',
-    content:
-      'I am currently taking my first steps in frontend and mobile development with these technologies.',
-    icon: 'fa-brands fa-react',
-  },
-  {
     id: 4,
-    name: 'Programming Languages',
-    content: `Languages I've used include C++, C#, Python, Java, PHP, HTML, CSS, JavaScript, TypeScript, Dart, SQL and others.`,
-    icon: 'fa-brands fa-dev',
+    name: 'AWS Service',
+    content:
+      'I have worked with AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, Amazon S3, Amazon SNS, Amazon SQS, Amazon EventBridge, AWS Step Functions, DynamoDB and Kinesis Streams.',
+    icon: 'fa-brands fa-aws',
   },
   {
     id: 5,
+    name: 'React & Native',
+    content:
+      'Consider this technology suitable for frontend and mobile development given its versatility and adaptation in the market.',
+    icon: 'fa-brands fa-react',
+  },
+  {
+    id: 6,
     name: 'PHP Frameworks',
-    content: `I have knowledge in Symfony and Laravel, but I don't currently work with these technologies.`,
+    content: `I have carried out knowledge projects in Symfony and Laravel, although I do not currently use these technologies.`,
     icon: 'fa-brands fa-php',
   },
   {
-    id: 8,
+    id: 7,
     name: `Databases and ORM/ODM`,
     content:
       'I have knowledge in MySQL , MongoDB, PostgreSQL, Firebase, and ORMs like Sequelize, TypeORM, Mongoose, Prisma, Doctrine, Eloquent, and others.',
     icon: 'fa-solid fa-database',
   },
   {
-    id: 9,
+    id: 8,
     name: 'Other Softwares',
     content:
       'Postman, DBeaver, MongoDB Compass, Docker, Android Studio, Visual Studio Code, Adobe XD, Figma and others.',
     icon: 'fa-regular fa-window-restore',
   },
   {
-    id: 6,
+    id: 9,
     name: 'Atlassian Community Softwares',
     content: `I use Jira, Confluence, Bitbucket in the workgroups I participate in.`,
     icon: 'fa-brands fa-atlassian',
-  },
-  {
-    id: 7,
-    name: 'Markdown... Why not?',
-    content: `A beautiful README.md is the best presentation of a repository.`,
-    icon: 'fa-brands fa-markdown',
-  },
+  }
 ];
 
 function Services() {

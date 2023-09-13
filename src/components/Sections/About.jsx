@@ -10,7 +10,7 @@ const aboutData = {
   birthday: '23 July, 1991',
   email: 'sterrenjuanignacio@gmail.com',
   aboutMe:
-    'Hello! I am a FullStack Developer and an advanced student of a Higher Technician in Software Development, in 2016 I started developing my first projects as a frontend developer in a dependency relationship, from 2017 to 2021 my main work activities did not include software development, even so, during those years I took several courses, developed websites for private clients and developed a comprehensive claims system for municipalities and communes using technologies such as Symfony (PHP), Angular 7 (Typescript) and MySQL.',
+    'Hello! I am a FullStack Developer, in 2016 I began to develop my first projects as a frontend developer in a dependency relationship, from 2017 to 2021 my main work activities did not include software development, even so, during those years I took several courses, developed websites for private clients and developed a comprehensive complaints system for municipalities and communes using technologies such as Symfony (PHP), Angular 7 (Typescript) and MySQL. From 2021 to the present, I have specialized in Javascript frameworks, developing software in interdisciplinary teams. Can I help you with something? Get in touch with me.',
 };
 
 function About() {

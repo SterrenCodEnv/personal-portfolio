@@ -4,7 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 const herosectionData = {
   name: 'Juan Sterren',
   aboutMe:
-    'Hello! I am a FullStack Developer and an advanced student of a Higher Technician in Software Development, in 2016 I started developing my first projects as a frontend developer in a dependency relationship, from 2017 to 2021 my main work activities did not include software development, even so, during those years I took several courses, developed websites for private clients and developed a comprehensive claims system for municipalities and communes using technologies such as Symfony (PHP), Angular 7 (Typescript) and MySQL. I can help you with something? Get in touch with me.',
+    'You can download my CV, send me a message, or just scroll here! 😄',
 };
 
 function Herosection() {
@@ -23,7 +23,7 @@ function Herosection() {
           <span className="dot"></span>
         </h1>
         <p className="mb-4 animate__animated animate__lightSpeedInRight">
-          {herosectionData.aboutMe}
+          {herosectionData?.aboutMe}
         </p>
 
         <a

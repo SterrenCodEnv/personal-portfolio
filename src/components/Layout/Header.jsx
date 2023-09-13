@@ -15,8 +15,7 @@ const headerData = {
   imageThumb: '/images/logo.png',
   social: {
     linkedin: 'https://www.linkedin.com/in/sterrenjuan/',
-    facebook: 'https://www.facebook.com/SterrenJuanIgnacio/',
-    instagram: 'https://www.linkedin.com/in/sterrenjuan/',
+    instagram: 'https://www.instagram.com/juan.sterren/',
     github: 'https://github.com/SterrenCodEnv',
   },
 };
@@ -66,8 +65,8 @@ function Header({ toggleHeader, toggleHandler }) {
         >
           <span aria-hidden="true">&times;</span>
         </button>
-        <div className="header-inner d-flex align-items-start flex-column">
-          <Link to="/">
+        <div className="header-inner d-flex align-items-center flex-column">
+          <Link className="d-flex align-items-center flex-column" to="/">
             <img
               className="image-logo"
               src={headerData.imageThumb}
