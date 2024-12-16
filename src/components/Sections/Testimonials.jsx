@@ -12,6 +12,7 @@ const testimonialsData = [
     authorImage: "images/testimonials/1.png",
     authorName: "Samir Mahmud",
     authorStatus: "Backend Developer | Janis Commerce",
+    authorProfile: "https://www.linkedin.com/in/samir-mahmud-4265a31b7/",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const testimonialsData = [
     authorImage: "images/testimonials/2.png",
     authorName: "José Ignacio Calandra",
     authorStatus: "Team Leader | Janis Commerce",
+    authorProfile: "https://www.linkedin.com/in/calandrajosei/",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ const testimonialsData = [
     authorImage: "images/testimonials/3.png",
     authorName: "Jennifer Mallo",
     authorStatus: "Global Head Hunter | Janis Commerce",
+    authorProfile: "https://www.linkedin.com/in/jennifer-mallo/",
   },
 ];
 
