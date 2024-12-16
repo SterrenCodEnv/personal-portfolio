@@ -4,63 +4,63 @@ import Service from '../Items/Service';
 const servicesData = [
   {
     id: 1,
-    name: 'Programming Languages',
-    content: `Languages I've used include C++, C#, Python, Java, PHP, HTML, CSS, JavaScript, TypeScript, Dart, SQL and others.`,
-    icon: 'fa-brands fa-dev',
+    name: "Lenguajes de Programación",
+    content: `Los lenguajes que he utilizado incluyen C++, C#, Python, Java, PHP, HTML, CSS, JavaScript, TypeScript, Dart, SQL y otros.`,
+    icon: "fa-brands fa-dev",
   },
   {
     id: 2,
-    name: 'JavaScript & TypeScript',
+    name: "JavaScript & TypeScript",
     content:
-      'I have been interested in these technologies to carry out developments in the backend, frontend and mobile.',
-    icon: 'fa-brands fa-js',
+      "Me he interesado en estas tecnologías para llevar a cabo desarrollos en el backend, frontend y móvil.",
+    icon: "fa-brands fa-js",
   },
   {
     id: 3,
-    name: 'NodeJs',
-    content: `Build web servers and APIs with Express and NestJS, including JWT, Google Sign-in and Firebase, Socket.io, integration with mongoDB and PostgreSQL.`,
-    icon: 'fa-brands fa-node-js',
+    name: "NodeJs",
+    content: `He desarrollado servidores web y APIs con Express y NestJS, incluyendo JWT, Google Sign-in y Firebase, Socket.io, integración con mongoDB y PostgreSQL.`,
+    icon: "fa-brands fa-node-js",
   },
   {
     id: 4,
-    name: 'AWS Service',
+    name: "Servicio AWS",
     content:
-      'I have worked with AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, Amazon S3, Amazon SNS, Amazon SQS, Amazon EventBridge, AWS Step Functions, DynamoDB and Kinesis Streams.',
-    icon: 'fa-brands fa-aws',
+      "He trabajado con AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, Amazon S3, Amazon SNS, Amazon SQS, Amazon EventBridge, AWS Step Functions, DynamoDB y Kinesis Streams.",
+    icon: "fa-brands fa-aws",
   },
   {
     id: 5,
-    name: 'React & Native',
+    name: "React & Native",
     content:
-      'Consider this technology suitable for frontend and mobile development given its versatility and adaptation in the market.',
-    icon: 'fa-brands fa-react',
+      "Considero esta tecnología adecuada para el desarrollo frontend y móvil dada su versatilidad y adaptación en el mercado.",
+    icon: "fa-brands fa-react",
   },
   {
     id: 6,
-    name: 'PHP Frameworks',
-    content: `I have carried out knowledge projects in Symfony and Laravel, although I do not currently use these technologies.`,
-    icon: 'fa-brands fa-php',
+    name: "Frameworks de PHP",
+    content: `He realizado proyectos en Symfony y Laravel, aunque actualmente no utilizo estas tecnologías.`,
+    icon: "fa-brands fa-php",
   },
   {
     id: 7,
-    name: `Databases and ORM/ODM`,
+    name: `Bases de Datos y ORM/ODM`,
     content:
-      'I have knowledge in MySQL , MongoDB, PostgreSQL, Firebase, and ORMs like Sequelize, TypeORM, Mongoose, Prisma, Doctrine, Eloquent, and others.',
-    icon: 'fa-solid fa-database',
+      "Tengo conocimiento en MySQL, MongoDB, PostgreSQL, Firebase, y ORMs como Sequelize, TypeORM, Mongoose, Prisma, Doctrine, Eloquent y otros.",
+    icon: "fa-solid fa-database",
   },
   {
     id: 8,
-    name: 'Other Softwares',
+    name: "Otros Softwares",
     content:
-      'Postman, DBeaver, MongoDB Compass, Docker, Android Studio, Visual Studio Code, Adobe XD, Figma and others.',
-    icon: 'fa-regular fa-window-restore',
+      "Postman, DBeaver, MongoDB Compass, Docker, Android Studio, Visual Studio Code, Adobe XD, Figma y otros.",
+    icon: "fa-regular fa-window-restore",
   },
   {
     id: 9,
-    name: 'Atlassian Community Softwares',
-    content: `I use Jira, Confluence, Bitbucket in the workgroups I participate in.`,
-    icon: 'fa-brands fa-atlassian',
-  }
+    name: "Softwares de la Comunidad Atlassian",
+    content: `Utilizo Jira, Confluence, Bitbucket en los grupos de trabajo en los que participo.`,
+    icon: "fa-brands fa-atlassian",
+  },
 ];
 
 function Services() {

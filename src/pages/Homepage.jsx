@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Element } from 'react-scroll';
 import Layout from '../components/Layout/Layout';
 import About from '../components/Sections/About';
-/* import Testimonials from '../components/Sections/Testimonials'; */
+import Testimonials from '../components/Sections/Testimonials';
 import Clients from '../components/Sections/Clients';
 import Herosection from '../components/Sections/Herosection';
 import SectionHeading from '../components/Items/SectionHeading';
@@ -24,7 +24,7 @@ function Homepage() {
 
       <Element name="section-about">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="About Me" />
+          <SectionHeading title="Sobre mí" />
           <About />
         </section>
       </Element>
@@ -35,14 +35,14 @@ function Homepage() {
 
       <Element name="section-services">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Technologies" />
+          <SectionHeading title="Tecnologías" />
           <Services />
         </section>
       </Element>
 
       <Element name="section-experiences">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Courses" />
+          <SectionHeading title="Cursos" />
           <Experiences />
         </section>
       </Element>
@@ -57,20 +57,17 @@ function Homepage() {
     */}
 
       {/* Puedo pedir referencias cuando termine un proyecto */}
-      {/* <Element name="section-testimonials">
+      <Element name="section-testimonials">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Testimonials" />
+          <SectionHeading title="Referencias" />
           <Testimonials />
         </section>
-      </Element> */}
-
-      <Element name="section-clients">
         <Clients />
       </Element>
 
       <Element name="section-contact">
         <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Get in touch with me" />
+          <SectionHeading title="Contáctame" />
           <Contact />
         </section>
       </Element>

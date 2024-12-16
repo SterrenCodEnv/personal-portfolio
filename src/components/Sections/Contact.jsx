@@ -19,24 +19,24 @@ function Contact() {
   const [messageAlert, setMessageAlert] = useState(false);
 
   const form = useRef();
-  const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
       setMessageAlert(true);
-      setMessage('Name is required');
+      setMessage('Nombre requerido');
     } else if (!formdata.email) {
       setError(true);
       setMessageAlert(true);
-      setMessage('Email is required');
+      setMessage('Email requerido');
     } else if (!formdata.subject) {
       setError(true);
       setMessageAlert(true);
-      setMessage('Subject is required');
+      setMessage('Asunto requerido');
     } else {
       setError(false);
       setMessageAlert(true);
-      setMessage('You message has been sent!!!');
+      setMessage('¡Mensaje enviado correctamente!');
     }
     emailjs.sendForm(service_id, template_id, form.current, user_id).then(
       (result) => {
@@ -86,7 +86,7 @@ function Contact() {
         <div className="contact-info mb-5">
           <i className="fa-brands fa-whatsapp"></i>
           <div className="details">
-            <h5>Phone</h5>
+            <h5>Teléfono</h5>
             {contactData.phone.map((singlePhone, index) => (
               <span key={index}>{singlePhone}</span>
             ))}
@@ -95,7 +95,7 @@ function Contact() {
         <div className="contact-info mb-5">
           <i className="fa-regular fa-envelope"></i>
           <div className="details">
-            <h5>Email address</h5>
+            <h5>Email</h5>
             {contactData.email.map((singleEmail, index) => (
               <span key={index}>{singleEmail}</span>
             ))}
@@ -118,7 +118,7 @@ function Contact() {
                   type="text"
                   className="form-control"
                   name="name"
-                  placeholder="Your name"
+                  placeholder="Nombre..."
                   onChange={handleChange}
                   value={formdata.name}
                 />
@@ -131,7 +131,7 @@ function Contact() {
                   type="email"
                   className="form-control"
                   name="email"
-                  placeholder="Email address"
+                  placeholder="Email..."
                   onChange={handleChange}
                   value={formdata.email}
                 />
@@ -145,7 +145,7 @@ function Contact() {
                   className="form-control"
                   rows={5}
                   name="subject"
-                  placeholder="Your message"
+                  placeholder="Mensaje..."
                   onChange={handleChange}
                   value={formdata.subject}
                 />
@@ -159,7 +159,7 @@ function Contact() {
             value="Submit"
             className="btn btn-default"
           >
-            <i className="fa-regular fa-paper-plane"></i>Send Message
+            <i className="fa-regular fa-paper-plane"></i>Enviar Mensaje
           </button>
         </form>
         {handleAlerts()}

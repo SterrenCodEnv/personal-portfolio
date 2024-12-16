@@ -5,18 +5,23 @@ import Slider from 'react-slick';
 const clientsData = [
   {
     id: 1,
-    image: 'images/clients/1.png',
-    url: 'https://rooftop.dev/',
+    image: "images/clients/1.png",
+    url: "https://rooftop.dev/",
   },
   {
     id: 2,
-    image: 'images/clients/2.png',
-    url: 'https://grupoprominente.com/',
+    image: "images/clients/2.png",
+    url: "https://grupoprominente.com/",
   },
   {
     id: 3,
-    image: 'images/clients/3.png',
-    url: 'https://janis.im/',
+    image: "images/clients/3.png",
+    url: "https://janis.im/",
+  },
+  {
+    id: 4,
+    image: "images/clients/4.png",
+    url: "https://oblek.com/",
   },
 ];
 

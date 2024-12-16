@@ -14,7 +14,7 @@ function About() {
   return (
     <Layout2>
       <section className="shadow-blue white-bg padding mt-0">
-        <SectionHeading title="About Me" />
+        <SectionHeading title="Sobre mí" />
         <AboutSection />
       </section>
 

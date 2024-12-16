@@ -33,8 +33,8 @@ function Header({ toggleHeader, toggleHandler }) {
       <div
         className={
           toggleHeader
-            ? 'mobile-header py-2 px-3 mt-4 push'
-            : 'mobile-header py-2 px-3 mt-4'
+            ? "mobile-header py-2 px-3 mt-4 push"
+            : "mobile-header py-2 px-3 mt-4"
         }
       >
         <button className="menu-icon mr-2" onClick={toggleHandler}>
@@ -53,8 +53,8 @@ function Header({ toggleHeader, toggleHandler }) {
       <header
         className={
           toggleHeader
-            ? 'left float-left shadow-dark open'
-            : 'left float-left shadow-dark'
+            ? "left float-left shadow-dark open"
+            : "left float-left shadow-dark"
         }
       >
         <button
@@ -82,7 +82,7 @@ function Header({ toggleHeader, toggleHandler }) {
           <nav>
             <ul className="vertical-menu scrollspy">
               <li>
-                {currentPath === '/' ? (
+                {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
                     to="section-home"
@@ -91,16 +91,16 @@ function Header({ toggleHeader, toggleHandler }) {
                     offset={-50}
                     duration={500}
                   >
-                    <i className="fa-regular fa-handshake"></i>Hi!
+                    <i className="fa-regular fa-handshake"></i>¡Saludos!
                   </ScrollLink>
                 ) : (
                   <Link to="/">
-                    <i className="fa-regular fa-handshake"></i>Hi!
+                    <i className="fa-regular fa-handshake"></i>¡Saludos!
                   </Link>
                 )}
               </li>
               <li>
-                {currentPath === '/' ? (
+                {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
                     to="section-about"
@@ -109,16 +109,16 @@ function Header({ toggleHeader, toggleHandler }) {
                     offset={-50}
                     duration={500}
                   >
-                    <i className="fa-regular fa-address-card"></i>About me
+                    <i className="fa-regular fa-address-card"></i>Sobre mí
                   </ScrollLink>
                 ) : (
                   <Link to="/">
-                    <i className="fa-regular fa-address-card"></i>About me
+                    <i className="fa-regular fa-address-card"></i>Sobre mí
                   </Link>
                 )}
               </li>
               <li>
-                {currentPath === '/' ? (
+                {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
                     to="section-services"
@@ -127,16 +127,16 @@ function Header({ toggleHeader, toggleHandler }) {
                     offset={-50}
                     duration={500}
                   >
-                    <i className="fa-solid fa-laptop-code"></i>Technologies
+                    <i className="fa-solid fa-laptop-code"></i>Tecnologías
                   </ScrollLink>
                 ) : (
                   <Link to="/">
-                    <i className="fa-solid fa-laptop-code"></i>Technologies
+                    <i className="fa-solid fa-laptop-code"></i>Tecnologías
                   </Link>
                 )}
               </li>
               <li>
-                {currentPath === '/' ? (
+                {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
                     to="section-experiences"
@@ -145,16 +145,36 @@ function Header({ toggleHeader, toggleHandler }) {
                     offset={-50}
                     duration={500}
                   >
-                    <i className="fa-solid fa-user-graduate"></i>Courses
+                    <i className="fa-solid fa-user-graduate"></i>Cursos
                   </ScrollLink>
                 ) : (
                   <Link to="/">
-                    <i className="fa-solid fa-user-graduate"></i>Courses
+                    <i className="fa-solid fa-user-graduate"></i>Cursos
                   </Link>
                 )}
               </li>
+
               <li>
-                {currentPath === '/' ? (
+                {currentPath === "/" ? (
+                  <ScrollLink
+                    activeClass="active"
+                    to="section-testimonials"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={500}
+                  >
+                    <i className="fa-solid fa-thumbs-up"></i>Referencias
+                  </ScrollLink>
+                ) : (
+                  <Link to="/">
+                    <i className="fa-solid fa-thumbs-up"></i>Referencias
+                  </Link>
+                )}
+              </li>
+
+              <li>
+                {currentPath === "/" ? (
                   <ScrollLink
                     activeClass="active"
                     to="section-contact"
@@ -163,11 +183,11 @@ function Header({ toggleHeader, toggleHandler }) {
                     offset={-50}
                     duration={500}
                   >
-                    <i className="fa-regular fa-paper-plane"></i>Contact
+                    <i className="fa-regular fa-paper-plane"></i>Contáctame
                   </ScrollLink>
                 ) : (
                   <Link to="/">
-                    <i className="fa-regular fa-paper-plane"></i>Contact
+                    <i className="fa-regular fa-paper-plane"></i>Contáctame
                   </Link>
                 )}
               </li>
